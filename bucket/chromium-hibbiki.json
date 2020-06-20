@@ -23,14 +23,14 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v83.0.4103.106-r756066/mini_installer.sync.exe#/dl.zip"
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v83.0.4103.106-r756066/mini_installer.sync.exe"
         }
     },
 	"persist": "chromium",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v$version/mini_installer.sync.exe#/dl.zip"
+                "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v$version/mini_installer.sync.exe"
             }
         }
     }
