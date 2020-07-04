@@ -5,7 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esimov/caire/releases/download/v1.2.6/caire-1.2.6-windows-amd64.zipp"
+            "url": "https://github.com/esimov/caire/releases/download/v1.2.6/caire-1.2.6-windows-amd64.zip",
+            "extract_dir": "caire-1.2.6-windows-amd64"
         }
     },
     "bin": "caire.exe",
