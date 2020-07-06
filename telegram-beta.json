@@ -4,7 +4,6 @@
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
     "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v2.1.17/tportable.2.1.17.beta.zip",
-    "hash": "14e4bb640d4329985e29125f2fbbdefc129210227b17134e8938b432df72b5a3",
     "extract_dir": "Telegram",
     "pre_install": "Set-Content \"$dir\\telegram.cmd\" '@start \"Telegram\" /D \"%~dp0\" \"%~dp0Telegram.exe\" %*' -Encoding Ascii",
     "bin": "telegram.cmd",
