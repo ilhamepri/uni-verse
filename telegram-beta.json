@@ -1,9 +1,9 @@
 {
-    "version": "2.1.18",
+    "version": "2.1.20",
     "description": "A messaging app with a focus on speed and security",
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v2.1.18/tportable.2.1.18.beta.zip",
+    "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v2.1.20/tportable.2.1.20.beta.zip",
     "extract_dir": "Telegram",
     "pre_install": "Set-Content \"$dir\\telegram.cmd\" '@start \"Telegram\" /D \"%~dp0\" \"%~dp0Telegram.exe\" %*' -Encoding Ascii",
     "bin": "telegram.cmd",
